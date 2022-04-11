@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Portas Lógicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Desafio Portas Lógicas</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="banner">
+            <div class="itens">
+                <img src="imgs/circuito.jpeg">
+            </div>
+            <div class="container">
+                <div class="itens display">
+                    <label id="display1">0</label>
+                    <label id="display2">0</label>
+                    <label id="display3">0</label>
+                    <label id="display4">0</label>
+                    <label id="display5">0</label>
+                </div>
+                <div class="itens botoes">
+                    <button onclick="entrada_A()">A</button>
+                    <button onclick="entrada_B()">B</button>
+                    <button onclick="entrada_C()">C</button>
+                    <button onclick="entrada_D()">D</button>
+                    <button onclick="entrada_E()">E</button>
+                </div>
+                <div class="itens">
+                    <button id="envio" onclick="enviar()">Enviar</button>
+                </div>
+                <div class="itens">
+                    <div id="resultado"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Mauricio Massayuki Takabataki Leal Soares &copy; 2022</h3>
+    </div>
+</body>
+</html>
+
+<script src="main.js"></script>

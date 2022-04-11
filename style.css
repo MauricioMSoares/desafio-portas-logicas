@@ -1,0 +1,83 @@
+@media screen and (max-height: 830px) {
+    .footer {
+        position: relative;
+    }
+}
+
+@media screen and (min-height: 830px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+body {
+    background-image: url("imgs/codigo-binario.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: white;
+    padding-top: 50px;
+}
+
+.header {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container .itens {
+    display: flex;
+    justify-content: center;
+}
+
+.itens.display {
+    margin: 20px 0 10px;
+}
+
+label {
+    background-color: rgba(216, 216, 216, 0.596);
+    border: solid rgba(0, 0, 0, 0.356) 1px;
+    font-size: 28px;
+    padding: 0 5px;
+}
+
+.itens.botoes {
+    padding: 10px;
+}
+
+button {
+    margin: 2px 0;
+    padding: 7px 7px;
+}
+
+#envio {
+    padding: 7px 15px;
+    margin-bottom: 40px;
+}
+
+#resultado {
+    height: 175px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
